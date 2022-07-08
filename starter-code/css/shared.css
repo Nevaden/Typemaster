@@ -1,18 +1,24 @@
 
 * {
     font-family: 'Barlow', sans-serif;
-
 }
 
 .head__items {
      display: flex; 
+     justify-content: space-between;
+     align-items: center;
+    
 }
 
 .head__items button {
     font-weight: bold;
-
+    justify-content: center;
+    
 }
 
+.decorative-square{
+    overflow: hidden;
+}
 
 
 @media (max-width:376px)  { 
@@ -22,6 +28,13 @@
    }
 }
 
+    .head__items button {
+        display: flex;
+        align-self: flex-end;
+        justify-content: space-between;
+
+    
+    }
 
 @media (min-width:768px)  { 
 
