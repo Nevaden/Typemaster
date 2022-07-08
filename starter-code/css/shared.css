@@ -1,20 +1,57 @@
 
-* {
-    font-family: 'Barlow', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
 }
 
-.head__items {
-     display: flex; 
-     justify-content: space-between;
-     align-items: center;
-    
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
 }
 
-.head__items button {
-    font-weight: bold;
-    justify-content: center;
-    
+h1,
+h2,
+h3 {
+  font-weight: 400;
 }
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+
+  img,
+  picture {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+
+  a {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  button {
+    border: none;
+    display: inline-block;
+    background-color: transparent;
+  }
+
 
 .decorative-square{
     overflow: hidden;
