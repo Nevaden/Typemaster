@@ -319,7 +319,8 @@ body {
 
 @media (min-width: 48rem) {
     .header__inner {
-        padding-top: 2.5rem;
+        padding-top: 2.0rem;
+        padding-bottom: 2.5rem;
       }
     .page {
         padding-top: 1rem;
@@ -488,4 +489,5 @@ body {
   }
 }
 
-
+@media (min-width: 90rem) {
+}
